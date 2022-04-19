@@ -37,7 +37,7 @@ app.post("/findUnicornByName", function (req, res) {
         } else {
             console.log("Data " + unicorns);
         }
-        res.send(unicorns);
+        res.json(unicorns);
     });
 
 
